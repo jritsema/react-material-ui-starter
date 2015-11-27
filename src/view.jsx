@@ -1,23 +1,12 @@
 import React from 'react'
-import Button from 'react-bootstrap/lib/Button'
+import RaisedButton from 'material-ui/lib/raised-button'
 
 export default React.createClass({
-
-  render: function() {
+  render () {
     return (
       <div className="page">
-        <h3>React Bootstrap App</h3>
-        <div className="row">
-          <div className="col-md-3">
-            <Button className="btn-default">
-              Button
-            </Button>
-          </div>
-          <div className="col-md-9">
-          </div>
-        </div>
+        <RaisedButton label="Button"/>
       </div>
     );
   }
-
 });
